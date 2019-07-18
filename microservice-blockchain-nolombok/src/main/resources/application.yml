@@ -1,0 +1,19 @@
+encrypt-type: 0  # 0:standard, 1:guomi
+group-channel-connections-config:
+  all-channel-connections:
+  - group-id: 1  #group ID
+    connections-str:
+                    - 127.0.0.1:20200  # node listen_ip:channel_listen_port
+ 
+channel-service:
+  group-id: 1 # The specified group to which the SDK connects
+  org-id: fisco # agency name
+
+user-key:
+#  user-key: bd365f2a5f28c946804340c9fc92cc88105e695e92f035d7bb286024c1268a5d # user key
+   user-key: 57f84f0d0e5ce0f656d4f127d24993a815db4c5d5ec6c53d08139941d4b774b1
+#   
+#   public key : 0x37d8a771e1b3650916d68bc840d99f1d2907b0b194c3035f27d6e8192bdcfd255bce053bc8133a68503d28709e8119eaf99ecee71da30929b9c20e37c002f27a
+#    private key: 57f84f0d0e5ce0f656d4f127d24993a815db4c5d5ec6c53d08139941d4b774b1
+#  address : 0x0a0acc7eaff8f58b4b55e108198df8801a22373a
+
